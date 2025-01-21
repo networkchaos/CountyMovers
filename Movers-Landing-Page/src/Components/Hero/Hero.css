@@ -1,0 +1,8 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8,0,58,0.6),rgba(8,0,58,0.6)), url('../../assets/County-Movers.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
