@@ -1,8 +1,44 @@
 .hero {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(8,0,58,0.6),rgba(8,0,58,0.6)), url('../../assets/County-Movers.jpeg');
+    background: linear-gradient(rgba(8,0,58,0.8),rgba(8,0,58,0.8)), url('../../assets/County-Movers.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+}
+
+.hero-text h1{
+    font-size: 2.4rem;
+}
+
+.hero-text p{
+    font-size: 1.1rem;
+    padding: 20px 0px;
+}
+
+.hero-text button{
+    margin: 30px 0px;
+    padding: 20px;
+    background-color: #FE6B37;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.hero-text button:hover{
+    transform: scale(1.1);
 }
