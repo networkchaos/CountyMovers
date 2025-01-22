@@ -1,0 +1,21 @@
+.our-services{
+    width: 80%;
+    margin: 60px auto;
+}
+
+.our-services h1 {
+    color: #1A4B85;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.services-flex-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    /* column-gap: 2rem; */
+}
+
+.services-flex-container .flex-box-service{
+    width: 25%;
+}
