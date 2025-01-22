@@ -12,10 +12,18 @@
 .services-flex-container{
     display: flex;
     justify-content: space-around;
-    text-align: center;
+    
     /* column-gap: 2rem; */
 }
 
+.services-flex-container h3 {
+    padding-bottom: 30px;
+}
+
 .services-flex-container .flex-box-service{
+    padding: 20px;
     width: 25%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
 }

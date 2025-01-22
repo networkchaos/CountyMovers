@@ -23,14 +23,14 @@ const Services = () => {
 
         <div className='packing-services flex-box-service'>
           <FontAwesomeIcon icon={faTruckFast} style={iconStyle} />
-          <h3>Long Distance Moving</h3>
-          <p>Safe and timely interstate moving solutions.</p>
+          <h3>Local Moving</h3>
+          <p>Efficient and careful transportation within your city and county.</p>
         </div>
 
         <div className='packing-services flex-box-service'>
           <FontAwesomeIcon icon={faRoute} style={iconStyle} />
-          <h3>Packing Services</h3>
-          <p>Professional packing of your belongings with high-quality materials.</p>
+          <h3>Long Distance Moving</h3>
+          <p>Safe and timely interstate moving solutions.</p>
         </div>
 
 
