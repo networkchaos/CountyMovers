@@ -1,0 +1,27 @@
+.about-container{
+    width: 100%;
+    background-color: #1A4B85;
+    color: white;
+    margin-top: 80px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 4rem;
+}
+
+.about-container .about-county-movers{
+    width: 50%;
+}
+
+.about-county-movers p{
+    line-height: 2rem;
+}
+
+.about-container .why-us-location{
+    width: 50%;
+}
+
+.why-us-location .our-location{
+    margin-top: 30px;
+}
