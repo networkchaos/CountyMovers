@@ -28,11 +28,11 @@ const Pricing = () => {
         </div>
 
         <div className="pricing-quote">
-            <p className="pricing-category">Studio/1 Bedroom</p>
-            <p className="starting-price">From KSH 15,000</p>
-            <p className="destination">Within Nairobi: KSH 15,000 - 25,000</p>
-            <p className="destination">Nairobi to Mombasa: KSH 45,000 - 60,000</p>
-            <p className="destination">Nairobi to Kisumu: KSH 40,000 - 55,000</p>
+            <p className="pricing-category">2-3 Bedroom</p>
+            <p className="starting-price">From KSH 25,000</p>
+            <p className="destination">Within Nairobi: KSH 25,000 - 40,000</p>
+            <p className="destination">Nairobi to Mombasa: KSH 65,000 - 85,000</p>
+            <p className="destination">Nairobi to Kisumu: KSH 60,000 - 80,000</p>
             <p>Professional Packing</p>
             <p>Loading & Unloading</p>
 
@@ -40,11 +40,11 @@ const Pricing = () => {
         </div>
 
         <div className="pricing-quote">
-            <p className="pricing-category">Studio/1 Bedroom</p>
-            <p className="starting-price">From KSH 15,000</p>
-            <p className="destination">Within Nairobi: KSH 15,000 - 25,000</p>
-            <p className="destination">Nairobi to Mombasa: KSH 45,000 - 60,000</p>
-            <p className="destination">Nairobi to Kisumu: KSH 40,000 - 55,000</p>
+            <p className="pricing-category">4+ Bedroom</p>
+            <p className="starting-price">From KSH 40,000</p>
+            <p className="destination">Within Nairobi: KSH 40,000 - 60,000</p>
+            <p className="destination">Nairobi to Mombasa: KSH 90,000 - 120,000</p>
+            <p className="destination">Nairobi to Kisumu: KSH 85,000 - 115,000</p>
             <p>Professional Packing</p>
             <p>Loading & Unloading</p>
 
