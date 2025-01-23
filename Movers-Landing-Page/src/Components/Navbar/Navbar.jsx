@@ -18,10 +18,10 @@ const Navbar = () => {
     <nav className={`nav-container ${sticky ? "dark-nav" : ""}`}>
       <h1><Link to='hero' smooth={true}duration={800}>CountyMovers</Link></h1>
       <ul>
-        <li><Link to='our-services' smooth={true}duration={800}>Services</Link></li>
-        <li><Link to='about-container' smooth={true}duration={800}>About</Link></li>
-        <li><Link to='our-pricing-container' smooth={true}duration={800}>Pricing</Link></li>
-        <li><Link to='contact-container' smooth={true}duration={800}>Contact</Link></li>
+        <li><Link to='our-services' smooth={true}duration={800} offset={-150}>Services</Link></li>
+        <li><Link to='about-container' smooth={true}duration={800} offset={-150}>About</Link></li>
+        <li><Link to='our-pricing-container' smooth={true}duration={800} offset={-150}>Pricing</Link></li>
+        <li><Link to='contact-container' smooth={true}duration={800} offset={-150}>Contact</Link></li>
       </ul>
     </nav>
   )

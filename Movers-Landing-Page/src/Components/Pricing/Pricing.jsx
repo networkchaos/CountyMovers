@@ -7,7 +7,7 @@ const Pricing = () => {
     <div className='our-pricing-container'>
         <h1>Our Pricing</h1>
       <button className="back-button">
-        <Link to='hero' smooth={true}duration={800}>
+        <Link to='hero' smooth={true}duration={800} offset={-150}>
         <svg width="37" height="16" viewBox="0 0 37 16" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M1 8L36 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         <path d="M8 15L0.999999 8L8 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
