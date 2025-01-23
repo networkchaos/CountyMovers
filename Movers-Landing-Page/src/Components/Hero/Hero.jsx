@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <div className='hero'>
       <div className='hero-text'>
-        <h1>Your Trusted Moving </h1>
-        <h1>Partner</h1>
+        <h1>Your Trusted Moving Partner</h1>
+        
         <p>Professional,reliable, and stress-free moving services across the country</p>
         <button>
           <Link to='contact-container' smooth={true}duration={800} offset={-150}>
