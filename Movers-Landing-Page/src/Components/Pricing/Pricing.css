@@ -45,6 +45,10 @@
 
 .pricing-quote{
     width: 30%;
+    margin: 30px 0px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    padding: 30px;
 }
 
 .pricing-quote p{
@@ -70,4 +74,61 @@
     color: white;
     margin: 30px auto;
     padding: 18px 25px;
+}
+
+
+/* ================= Media Queries =============== */
+/* ================= Mobile Device ================ */
+@media (max-width : 480px){
+    .our-pricing-container{
+        width: 100%;
+        margin: 50px auto;
+        padding: 20px;
+    }
+    .our-pricing-container h1{
+        padding-bottom: 30px ;
+        font-size: 1.5rem;
+    }
+    
+    .our-pricing-container button{
+        border-radius: 8px;
+        font-size: 0.95rem;
+        padding: 8px 12px;
+    }
+       
+    .our-pricing-container button svg{
+        width: 20px;
+        margin-right: 10px;
+    }
+    
+    .pricing-quote-container{
+        margin: 60px auto;
+        display: block;
+    }
+    
+    .pricing-quote{
+        width: 95%;
+        margin: 30px auto;
+        padding: 20px;
+    }
+    
+    .pricing-quote p{
+        padding: 6px 0px;
+        font-size: 0.9rem;
+    }
+    
+    .pricing-quote .pricing-category{
+        font-size: 1.1rem;
+    }
+    
+    .pricing-quote .starting-price{
+        font-size: 1.5rem;
+    }
+    
+    .pricing-quote button{
+        font-size: 0.9rem;
+        margin: 20px auto;
+        padding: 15px 20px;
+    }
+    
 }
