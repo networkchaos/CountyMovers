@@ -42,14 +42,35 @@ iframe{
         width: 100%;
     }
     
+    .about-county-movers h1{
+        font-size: 1.5rem;
+        margin: 20px 0px;
+    }
+
     .about-county-movers p{
-        line-height: 2rem;
+        line-height: 1.6rem;
+        font-size: 0.95rem;
     }
     
     .about-container .why-us-location{
+        margin-top: 50px;
         width: 100%;
     }
     
+    .why-us-location h2{
+        font-size: 1.5rem;
+        margin: 20px 0px;
+    }
+
+    .why-us-location ul{
+        padding-left: 30px;
+        font-size: 0.95rem;
+    }
+
+    .why-us-location ul li{
+        padding: 2px 0px;
+    }
+
     .why-us-location .our-location{
         margin-top: 30px;
     }
