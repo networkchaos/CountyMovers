@@ -1,0 +1,189 @@
+.about-container{
+    width: 100%;
+    background-color: #1A4B85;
+    color: white;
+    margin-top: 80px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 4rem;
+}
+
+.about-container .about-county-movers{
+    width: 50%;
+}
+
+.about-county-movers p{
+    line-height: 2rem;
+}
+
+.about-container .why-us-location{
+    width: 50%;
+}
+
+.why-us-location .our-location{
+    margin-top: 30px;
+}
+
+iframe{
+    width: 100%;
+}
+
+/* ============== Media Queries ============== */
+/* ============== Mobile Device ============== */
+@media (max-width : 480px){
+    .about-container{
+        padding: 30px;
+        display: block;
+    }
+    
+    .about-container .about-county-movers{
+        width: 100%;
+    }
+    
+    .about-county-movers h1{
+        font-size: 1.5rem;
+        margin: 20px 0px;
+    }
+
+    .about-county-movers p{
+        line-height: 1.6rem;
+        font-size: 0.95rem;
+    }
+    
+    .about-container .why-us-location{
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+    .why-us-location h2{
+        font-size: 1.5rem;
+        margin: 20px 0px;
+    }
+
+    .why-us-location ul{
+        padding-left: 30px;
+        font-size: 0.95rem;
+    }
+
+    .why-us-location ul li{
+        padding: 2px 0px;
+    }
+
+    .why-us-location .our-location{
+        margin-top: 30px;
+    }
+
+    iframe{
+        width: 100%;
+    }
+}
+
+/* ============== Mobile Landscape ============== */
+@media (min-width : 481px) and (max-width :767px) {
+    .about-container{
+        padding: 30px;
+        display: block;
+    }
+    
+    .about-container .about-county-movers{
+        width: 100%;
+    }
+    
+    .about-county-movers h1{
+        font-size: 1.5rem;
+        margin: 20px 0px;
+    }
+
+    .about-county-movers p{
+        line-height: 1.6rem;
+        font-size: 0.95rem;
+    }
+    
+    .about-container .why-us-location{
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+    .why-us-location h2{
+        font-size: 1.5rem;
+        margin: 20px 0px;
+    }
+
+    .why-us-location ul{
+        padding-left: 30px;
+        font-size: 0.95rem;
+    }
+
+    .why-us-location ul li{
+        padding: 2px 0px;
+    }
+
+    .why-us-location .our-location{
+        margin-top: 30px;
+    }
+
+    iframe{
+        width: 100%;
+    }
+}
+
+
+/* ============== Tablet Device ============== */
+@media (min-width : 768px) and (max-width :991px) {
+    .about-container{
+        padding: 30px;
+        display: block;
+    }
+    
+    .about-container .about-county-movers{
+        width: 80%;
+        margin: 0px auto;
+    }
+    
+    .about-county-movers h1{
+        font-size: 1.5rem;
+        margin: 20px 0px;
+    }
+
+    .about-county-movers p{
+        line-height: 1.6rem;
+        font-size: 0.95rem;
+    }
+    
+    .about-container .why-us-location{
+        margin: 50px auto;
+        width: 80%;
+    }
+    
+    .why-us-location h2{
+        font-size: 1.5rem;
+        margin: 20px 0px;
+    }
+
+    .why-us-location ul{
+        padding-left: 30px;
+        font-size: 0.95rem;
+    }
+
+    .why-us-location ul li{
+        padding: 2px 0px;
+    }
+
+    .why-us-location .our-location{
+        margin-top: 30px;
+    }
+
+    iframe{
+        width: 100%;
+    }
+}
+
+/* ============== Tablet Landscape ============== */
+@media (min-width : 992px) and (max-width :1199px) {
+    .about-container{
+        padding: 30px;
+    }
+
+}
