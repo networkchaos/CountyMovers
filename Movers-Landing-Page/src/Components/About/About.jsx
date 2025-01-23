@@ -25,7 +25,6 @@ const About = () => {
             
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15958.010066142177!2d36.44476995000001!3d-0.720896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1737536506286!5m2!1sen!2ske"
-            width="600"
             height="450"
             style={{ border: '0',borderRadius: "10px"}}
             allowFullScreen=""

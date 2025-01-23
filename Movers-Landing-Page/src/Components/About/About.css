@@ -25,3 +25,36 @@
 .why-us-location .our-location{
     margin-top: 30px;
 }
+
+iframe{
+    width: 100%;
+}
+
+/* ============== Media Queries ============== */
+/* ============== Mobile Device ============== */
+@media (max-width : 480px){
+    .about-container{
+        padding: 30px;
+        display: block;
+    }
+    
+    .about-container .about-county-movers{
+        width: 100%;
+    }
+    
+    .about-county-movers p{
+        line-height: 2rem;
+    }
+    
+    .about-container .why-us-location{
+        width: 100%;
+    }
+    
+    .why-us-location .our-location{
+        margin-top: 30px;
+    }
+
+    iframe{
+        width: 100%;
+    }
+}
