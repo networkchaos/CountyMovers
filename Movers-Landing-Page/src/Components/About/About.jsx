@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className='about-container'>
       <div className='about-county-movers'>
-        <h1>About County Movers</h1>
+        <h1>About CountyMovers</h1>
         <p>With years of experience in the moving industry, we understand that relocating can be stressful. That's why we offer comprehensive moving solutions tailored to your needs. Our team of trained professionals ensures your belongings are handled with care and delivered safely to your new destination.</p>
         <p>Visit us at our office in Kayole, Naivasha, Kenya.</p>
       </div>
