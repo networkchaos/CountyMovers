@@ -26,7 +26,11 @@ const Pricing = () => {
             <p>Professional Packing</p>
             <p>Loading & Unloading</p>
 
-            <button>Get Quote</button>
+            <button>
+              <Link to='contact-container' smooth={true}duration={800} offset={-150}>
+                Get Quote
+              </Link> 
+            </button>
         </div>
 
         <div className="pricing-quote">
@@ -38,7 +42,11 @@ const Pricing = () => {
             <p>Professional Packing</p>
             <p>Loading & Unloading</p>
 
-            <button>Get Quote</button>
+            <button>
+              <Link to='contact-container' smooth={true}duration={800} offset={-150}>
+                Get Quote
+              </Link> 
+            </button>
         </div>
 
         <div className="pricing-quote">
@@ -50,7 +58,11 @@ const Pricing = () => {
             <p>Professional Packing</p>
             <p>Loading & Unloading</p>
 
-            <button>Get Quote</button>
+            <button>
+              <Link to='contact-container' smooth={true}duration={800} offset={-150}>
+                Get Quote
+              </Link> 
+            </button>
         </div>
       </div>
 
