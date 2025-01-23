@@ -45,7 +45,7 @@ form input:focus{
 
 form select{
     color: #1A4B85;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     outline: none;
     border: 0.5px solid #1A4B85;
@@ -105,15 +105,156 @@ form button:hover{
         display: block;   
         padding: 10px 0px;
     }
-    
-    form label  span{
-        color: #FE6B37;
-    }
-    
+
     form input {
         width: 100%;
         padding:10px;
         font-size: 0.9rem;
+    }
+    
+    form select{
+        width: 100%;
+    }
+    
+    form button{
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+    
+    .notification-message{
+        padding: 0px 20px ;
+        font-size: 0.9rem;
+    }
+    
+}
+
+/* =================== Mobile Landscape ================ */
+@media (min-width : 481px) and (max-width : 767px){
+    .contact-container{
+        margin: 40px auto;
+        width: 100%;
+    }
+    
+    .contact-container h1 {
+        padding-bottom: 20px;
+        font-size: 1.5rem;
+    }
+    
+    form {
+        width: 100%;
+    }
+    
+    form div{
+        width: 80%;
+        margin: 10px auto;
+    }
+    
+    form label {
+        display: block;   
+        padding: 10px 0px;
+    }
+
+    form input {
+        width: 100%;
+        padding:10px;
+        font-size: 0.9rem;
+    }
+    
+    form select{
+        width: 100%;
+    }
+    
+    form button{
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+    
+    .notification-message{
+        padding: 0px 20px ;
+        font-size: 0.9rem;
+    }
+    
+}
+
+/* =================== Tablet Device ================ */
+@media (min-width : 768px) and (max-width : 991px){
+    .contact-container{
+        margin: 40px auto;
+        width: 100%;
+    }
+    
+    .contact-container h1 {
+        padding-bottom: 20px;
+        font-size: 1.5rem;
+    }
+    
+    form {
+        width: 100%;
+    }
+    
+    form div{
+        width: 70%;
+        margin: 10px auto;
+    }
+    
+    form label {
+        display: block;   
+        padding: 10px 0px;
+    }
+
+    form input {
+        width: 100%;
+        padding: 12px 10px;
+        font-size: 1rem;
+    }
+    
+    form select{
+        width: 100%;
+    }
+    
+    form button{
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+    
+    .notification-message{
+        padding: 0px 20px ;
+        font-size: 0.9rem;
+    }
+    
+}
+
+
+/* =================== Tablet Landscape ================ */
+@media (min-width : 992px) and (max-width : 1199px){
+    .contact-container{
+        margin: 40px auto;
+        width: 100%;
+    }
+    
+    .contact-container h1 {
+        padding-bottom: 20px;
+        font-size: 1.5rem;
+    }
+    
+    form {
+        width: 100%;
+    }
+    
+    form div{
+        width: 60%;
+        margin: 10px auto;
+    }
+    
+    form label {
+        display: block;   
+        padding: 10px 0px;
+    }
+
+    form input {
+        width: 100%;
+        padding: 12px 10px;
+        font-size: 1rem;
     }
     
     form select{
