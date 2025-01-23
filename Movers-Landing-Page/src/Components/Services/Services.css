@@ -52,3 +52,82 @@
     }
     
 }
+
+
+/* ================ Mobile Landscape ================= */
+@media (min-width: 481px) and (max-width : 767px){
+    .our-services{
+        width: 100%;
+        margin: 60px auto;
+    }
+    
+    .our-services h1 {
+        padding-bottom: 40px;
+    }
+    
+    .services-flex-container{
+        display: block;
+    }
+    
+    .services-flex-container h3 {
+        padding-bottom: 20px;
+    }
+    
+    .services-flex-container .flex-box-service{
+        margin: 30px auto;
+        width: 80%;
+    }
+    
+}
+
+/* ================ Tablet ================= */
+@media (min-width: 768px) and (max-width : 991px){
+    .our-services{
+        width: 100%;
+        margin: 60px auto;
+    }
+    
+    .our-services h1 {
+        padding-bottom: 40px;
+    }
+    
+    .services-flex-container{
+        display: block;
+    }
+    
+    .services-flex-container h3 {
+        padding-bottom: 20px;
+    }
+    
+    .services-flex-container .flex-box-service{
+        margin: 30px auto;
+        width: 70%;
+    }
+    
+}
+
+/* ================ Tablet Landscape ================= */
+@media (min-width: 992px) and (max-width : 1199px){
+    .our-services{
+        width: 100%;
+        margin: 60px auto;
+    }
+    
+    .our-services h1 {
+        padding-bottom: 40px;
+    }
+    
+    .services-flex-container{
+        display: flex;
+    }
+    
+    .services-flex-container h3 {
+        padding-bottom: 20px;
+    }
+    
+    .services-flex-container .flex-box-service{
+        margin: 30px auto;
+        width: 30%;
+    }
+    
+}
