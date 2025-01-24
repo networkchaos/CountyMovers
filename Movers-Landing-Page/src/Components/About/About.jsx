@@ -24,7 +24,7 @@ const About = () => {
         <div className="our-location">
             
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15958.010066142177!2d36.44476995000001!3d-0.720896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1737536506286!5m2!1sen!2ske"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1021365.7635294738!2d35.3041684!3d-0.422172!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1829230067cb2b37%3A0x8ecb880d53d92884!2sCounty%20hardware!5e0!3m2!1sen!2ske!4v1737713914100!5m2!1sen!2ske"
             height="450"
             style={{ border: '0',borderRadius: "10px"}}
             allowFullScreen=""
