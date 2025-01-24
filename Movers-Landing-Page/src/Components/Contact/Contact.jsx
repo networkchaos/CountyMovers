@@ -1,13 +1,11 @@
-import React from 'react'
-import './Contact.css'
+import React, { useState } from 'react';
+import './Contact.css';
 
 const Contact = () => {
-
-  const [result, setResult] = React.useState("");
+  const [showPopup, setShowPopup] = useState(false); // State for showing success popup
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    setResult("Sending....");
     const formData = new FormData(event.target);
 
     formData.append("access_key", "85c9b4b0-6e32-4ab7-8c11-58bdf81d9a96");
@@ -20,41 +18,53 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully");
       event.target.reset();
+      setShowPopup(true); // Show success popup
+      setTimeout(() => setShowPopup(false), 3000); // Hide popup after 3 seconds
     } else {
-      console.log("Error", data);
-      setResult(data.message);
+      console.error("Error", data);
     }
   };
 
+  const closePopup = () => {
+    setShowPopup(false); // Hide popup manually
+  };
+
   return (
-    <div className='contact-container'>
+    <div className="contact-container">
       <h1>Get Your Free Quote</h1>
+
+      {showPopup && (
+        <div className="popup">
+          <p>🎉 Your request has been successfully submitted!</p>
+          <button onClick={closePopup}>Close</button>
+        </div>
+      )}
+
       <form onSubmit={onSubmit}>
         <div>
           <label htmlFor="user-name">Name <span>*</span></label>
-          <input type="text" id='user-name' name="user-name" required />
+          <input type="text" id="user-name" name="user-name" required />
         </div>
 
         <div>
           <label htmlFor="email">Email <span>*</span></label>
-          <input type="email" id='email' name="email" required />
+          <input type="email" id="email" name="email" required />
         </div>
 
         <div>
           <label htmlFor="phone-number">Phone <span>*</span></label>
-          <input type="tel" id='phone-number' name="phone-number" required />
+          <input type="tel" id="phone-number" name="phone-number" required />
         </div>
 
         <div>
           <label htmlFor="current-location">Current Location <span>*</span></label>
-          <input type="text" id='current-location' name="current-location" required />
+          <input type="text" id="current-location" name="current-location" required />
         </div>
 
         <div>
           <label htmlFor="destination-location">Destination Location <span>*</span></label>
-          <input type="text" id='destination-location' name="destination-location" required />
+          <input type="text" id="destination-location" name="destination-location" required />
         </div>
 
         <div>
@@ -84,11 +94,10 @@ const Contact = () => {
           </select>
         </div>
 
-        <button type='submit'>Submit Request</button>
-        <span className='notification-message'>{result}</span>
+        <button type="submit">Submit Request</button>
       </form>
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
