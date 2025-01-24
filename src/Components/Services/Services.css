@@ -1,0 +1,133 @@
+.our-services{
+    width: 80%;
+    margin: 60px auto;
+}
+
+.our-services h1 {
+    color: #1A4B85;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.services-flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.services-flex-container h3 {
+    padding-bottom: 30px;
+}
+
+.services-flex-container .flex-box-service{
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+
+/* ================ Media Queries ================= */
+/* ================ Mobile Device ================= */
+@media (max-width: 480px){
+    .our-services{
+        width: 100%;
+        margin: 60px auto;
+    }
+    
+    .our-services h1 {
+        padding-bottom: 40px;
+    }
+    
+    .services-flex-container{
+        display: block;
+    }
+    
+    .services-flex-container h3 {
+        padding-bottom: 20px;
+    }
+    
+    .services-flex-container .flex-box-service{
+        margin: 30px auto;
+        width: 90%;
+    }
+    
+}
+
+
+/* ================ Mobile Landscape ================= */
+@media (min-width: 481px) and (max-width : 767px){
+    .our-services{
+        width: 100%;
+        margin: 60px auto;
+    }
+    
+    .our-services h1 {
+        padding-bottom: 40px;
+    }
+    
+    .services-flex-container{
+        display: block;
+    }
+    
+    .services-flex-container h3 {
+        padding-bottom: 20px;
+    }
+    
+    .services-flex-container .flex-box-service{
+        margin: 30px auto;
+        width: 80%;
+    }
+    
+}
+
+/* ================ Tablet ================= */
+@media (min-width: 768px) and (max-width : 991px){
+    .our-services{
+        width: 100%;
+        margin: 60px auto;
+    }
+    
+    .our-services h1 {
+        padding-bottom: 40px;
+    }
+    
+    .services-flex-container{
+        display: block;
+    }
+    
+    .services-flex-container h3 {
+        padding-bottom: 20px;
+    }
+    
+    .services-flex-container .flex-box-service{
+        margin: 30px auto;
+        width: 70%;
+    }
+    
+}
+
+/* ================ Tablet Landscape ================= */
+@media (min-width: 992px) and (max-width : 1199px){
+    .our-services{
+        width: 100%;
+        margin: 60px auto;
+    }
+    
+    .our-services h1 {
+        padding-bottom: 40px;
+    }
+    
+    .services-flex-container{
+        display: flex;
+    }
+    
+    .services-flex-container h3 {
+        padding-bottom: 20px;
+    }
+    
+    .services-flex-container .flex-box-service{
+        margin: 30px auto;
+        width: 30%;
+    }
+    
+}

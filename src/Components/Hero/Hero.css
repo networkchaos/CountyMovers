@@ -1,0 +1,93 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8,0,58,0.8),rgba(8,0,58,0.8)), url('../../assets/County-Movers.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0%;
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+}
+
+.hero-text h1{
+    font-size: 60px;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.hero-text p{
+    font-size: 1.1rem;
+    padding: 20px 0px;
+}
+
+.hero-text button{
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #FE6B37;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: 0.6s;
+}
+
+.hero-text button:hover{
+    transform: scale(1.1);
+    svg{
+        transform: translateX(12px);
+    }
+}
+
+.hero-text button svg {
+    width: 30px;
+    transition: 0.6s;
+    margin-left: 10px;
+}
+
+
+/* ============= Media Queries =================== */
+/* ============= Mobile Device =================== */
+@media (max-width:480px){
+    
+    .hero-text h1{
+        font-size: 30px;
+    }
+    
+    .hero-text p{
+        font-size: 1rem;
+    }   
+    .hero-text button svg {
+        width: 25px;
+    }
+}
+
+/* ============= Mobile Landscape =================== */
+@media (min-width:481px) and (max-width : 767px){
+    
+    .hero-text h1{
+        font-size: 30px;
+    }
+    
+    .hero-text p{
+        font-size: 1rem;
+    }   
+    .hero-text button svg {
+        width: 25px;
+    }
+}
