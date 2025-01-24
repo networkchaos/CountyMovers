@@ -272,3 +272,44 @@ form button:hover{
     }
     
 }
+.popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1000;
+    animation: fadeIn 0.5s;
+  }
+  
+  .popup button {
+    margin-top: 10px;
+    background-color: white;
+    color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .popup button:hover {
+    background-color: #f1f1f1;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translate(-50%, -60%);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+  }
+  
